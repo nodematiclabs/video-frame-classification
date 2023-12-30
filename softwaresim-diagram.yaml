@@ -1,0 +1,697 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 1186
+  viewPortHeight: 762
+  horizontalOffset: -286
+  verticalOffset: -156
+addInfo:
+  stages:
+    - control: prepend
+      class: p-button-secondary
+      icon: pi pi-plus
+    - name: Define
+      id: define
+      progress: 100
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#689F38"
+      dates:
+        - 2023-12-29T19:28:18.116Z
+        - 2023-12-29T19:28:18.116Z
+      datesEnabled: false
+      taskLevelProgress: true
+      tasks:
+        - name: Task 1
+          progress: 100
+        - name: Task 2
+          progress: 100
+    - name: Measure
+      id: measure
+      progress: 0
+      details: ""
+      delayed: true
+      atRisk: true
+      blocked: true
+      color: "#D32F2F"
+      dates:
+        - 2023-12-29T19:28:18.116Z
+        - 2023-12-29T19:28:18.116Z
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Anayze
+      id: analyze
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - 2023-12-29T19:28:18.116Z
+        - 2023-12-29T19:28:18.116Z
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Improve
+      id: improve
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - 2023-12-29T19:28:18.116Z
+        - 2023-12-29T19:28:18.116Z
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Control
+      id: control
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - 2023-12-29T19:28:18.116Z
+        - 2023-12-29T19:28:18.116Z
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - control: append
+      class: p-button-secondary
+      icon: pi pi-plus
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 762
+connectors:
+  - id: Straight Connectorusyuy
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 408
+      y: 328
+    targetPoint:
+      x: 496
+      y: 328
+    sourceID: Cloud StorageSV5uE
+    targetID: Vertex AIrvJ7r
+    annotations:
+      - id: mMspt
+        content: Videos
+        style:
+          fill: white
+          bold: true
+    addInfo:
+      viewConnector: 0
+    zIndex: 2
+  - id: Straight ConnectorqRpmc
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 496
+      y: 348
+    targetPoint:
+      x: 408
+      y: 348
+    annotations:
+      - id: yRv9y
+        content: Images
+        style:
+          fill: white
+          bold: true
+    addInfo:
+      viewConnector: 0
+    zIndex: 3
+  - id: Dashed Straight ConnectorQ94La
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 258
+      y: 278
+    targetPoint:
+      x: 258
+      y: 216
+    sourceID: Cloud StorageSV5uE
+    targetID: Vertex AIcqRxF
+    annotations:
+      - id: PLKDD
+        content: AI Dataset
+        style:
+          fill: white
+          bold: true
+    addInfo:
+      viewConnector: 0
+    zIndex: 5
+  - id: Dashed Orthogonal Bidirectional ConnectorNG8Al
+    type: Orthogonal
+    sourceDecorator:
+      shape: OpenArrow
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 108
+      y: 166
+    targetPoint:
+      x: 31
+      y: 266
+    sourceID: Vertex AIcqRxF
+    targetID: UserslDIMG
+    segments:
+      - type: Orthogonal
+    annotations:
+      - id: DblFk
+        content: Image Labeling
+        style:
+          fill: white
+          bold: true
+    addInfo:
+      viewConnector: 0
+    zIndex: 7
+  - id: Dashed Orthogonal Bidirectional ConnectorQ4c6o
+    type: Orthogonal
+    sourceDecorator:
+      shape: OpenArrow
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 31
+      y: 118
+    targetPoint:
+      x: 108
+      y: 166
+    sourceID: Web Applicationbd8g0
+    targetID: Vertex AIcqRxF
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 9
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_Black_87_qiifqy.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_donk5b.png);"></div><div
+        class="c-text"><div class="c-title">Cloud Storage</div><div
+        class="c-short-description">Video assets and configurations (and images
+        after processing)</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Cloud StorageSV5uE
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Cloud Storage
+        shortDescription: Video assets and configurations (and images after processing)
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Cloud Storage
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Cloud Storage
+      editableName: Cloud Storage
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Object Storage
+          type: Storage
+          portsIn:
+            put: write
+            get: read
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Object Storage
+      name: Cloud Storage
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_donk5b.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage__044448_vsadzn.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_Black_87_qiifqy.png
+      color: "#3871e0"
+      controlText: Cloud Storage
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 258
+    offsetY: 328
+    zIndex: 0
+    outEdges:
+      - Straight Connectorusyuy
+      - Dashed Straight ConnectorQ94La
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_Black_87_vxjlos.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_lkhlnv.png);"></div><div
+        class="c-text"><div class="c-title">Vertex AI Pipelines</div><div
+        class="c-short-description">Extracting frames from the Cloud Storage
+        video assets</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Vertex AIrvJ7r
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Vertex AI
+        shortDescription: Extracting frames from the Cloud Storage video assets
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Vertex AI
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Vertex AI
+      editableName: Vertex AI Pipelines
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Vertex AI
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_lkhlnv.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai__044448_bktfch.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_Black_87_vxjlos.png
+      color: "#3871e0"
+      controlText: Vertex AI
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 646
+    offsetY: 328
+    zIndex: 1
+    inEdges:
+      - Straight Connectorusyuy
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_Black_87_vxjlos.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_lkhlnv.png);"></div><div
+        class="c-text"><div class="c-title">Vertex AI AutoML Vision</div><div
+        class="c-short-description">No-code AI vision (datasets, training, and
+        inference management)</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Vertex AIcqRxF
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Vertex AI
+        shortDescription: No-code AI vision (datasets, training, and inference management)
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Vertex AI
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Vertex AI
+      editableName: Vertex AI AutoML Vision
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Vertex AI
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_lkhlnv.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai__044448_bktfch.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_Black_87_vxjlos.png
+      color: "#3871e0"
+      controlText: Vertex AI
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 258
+    offsetY: 166
+    zIndex: 4
+    inEdges:
+      - Dashed Straight ConnectorQ94La
+      - Dashed Orthogonal Bidirectional ConnectorQ4c6o
+    outEdges:
+      - Dashed Orthogonal Bidirectional ConnectorNG8Al
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #616161;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Users_Black_87_nsu596.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Users__616161_e24kgx.png);"></div><div
+        class="c-text"><div class="c-title">Vertex AI Users (Labelers)</div><div
+        class="c-short-description">Frame labeling, for use in the AI model
+        training</div><div class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Users</div></div></div></div></div>'
+    id: UserslDIMG
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Users
+        shortDescription: Frame labeling, for use in the AI model training
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Users
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Users
+      editableName: Vertex AI Users (Labelers)
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Work Item Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: work item
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenWorkItemCreations
+        - name: Request Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: request
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenRequests
+        - name: Response Receiver
+          type: Storage
+          portsIn:
+            put: response
+            get: latest
+          portsOut:
+            stored: response
+        - name: Deployer
+          type: Processor
+          portsIn:
+            job: deployable
+          portsOut:
+            job: deployed
+          serviceTime:
+            exp:
+              lambda: AverageDeploymentDuration
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Work Item Generator
+          AverageTimeBetweenWorkItemCreations: 1
+        - type: Generator
+          status: Idle
+          name: Request Generator
+          AverageTimeBetweenRequests: 1
+        - type: Storage
+          status: Idle
+          name: Response Receiver
+        - type: Processor
+          status: Idle
+          name: Deployer
+          AverageDeploymentDuration: 1
+      name: Users
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Users__616161_e24kgx.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Users_Black_ij2426.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Users_Black_87_nsu596.png
+      color: "#616161"
+      controlText: Users
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: -119
+    offsetY: 266
+    zIndex: 6
+    inEdges:
+      - Dashed Orthogonal Bidirectional ConnectorNG8Al
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3d5c5c;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Web_Application_Black_87_pdwccj.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Web_Application_3d5c5c_iswqan.png);"></div><div
+        class="c-text"><div class="c-title">Web Application</div><div
+        class="c-short-description">Categorize video frames in some custom
+        application or service (AI via API)</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Web
+        Application</div></div></div></div></div>'
+    id: Web Applicationbd8g0
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Web Application
+        shortDescription: Categorize video frames in some custom application or service
+          (AI via API)
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Web Application
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Web Application
+      editableName: Web Application
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Application
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Application
+      name: Web Application
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Web_Application_3d5c5c_iswqan.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Web_Application_Black_zbzaaw.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Web_Application_Black_87_pdwccj.png
+      color: "#3d5c5c"
+      controlText: Web Application
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: -119
+    offsetY: 118
+    zIndex: 8
+    outEdges:
+      - Dashed Orthogonal Bidirectional ConnectorQ4c6o
+selectedItems:
+  width: 0
+  height: 0
